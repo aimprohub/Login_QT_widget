@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>weighning_operation</class>
+ <widget class="QDialog" name="weighning_operation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>543</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(225, 225, 255);</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>40</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Date : </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Weighing Operation</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Username : </string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>470</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Show Details</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>531</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 255, 237);
+gridline-color: rgb(255, 23, 166);
+alternate-background-color: rgb(209, 255, 39);
+selection-background-color: rgb(21, 255, 99);
+</string>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+   <property name="verticalScrollMode">
+    <enum>QAbstractItemView::ScrollPerItem</enum>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Ingradient</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Min Max</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>M/c Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Reading</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Accept</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Ingradient-1</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>101</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>1092</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>Ingradient-2</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>102</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string>0982</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>Ingradient-3</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>103</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>0945</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>Ingradient-4</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>104</string>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string>0923</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>Ingradient-5</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="4" column="2">
+    <property name="text">
+     <string>105</string>
+    </property>
+   </item>
+   <item row="4" column="3">
+    <property name="text">
+     <string>0931</string>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>Ingradient-6</string>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="5" column="2">
+    <property name="text">
+     <string>106</string>
+    </property>
+   </item>
+   <item row="5" column="3">
+    <property name="text">
+     <string>7120</string>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>Ingradient-7</string>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="6" column="2">
+    <property name="text">
+     <string>107</string>
+    </property>
+   </item>
+   <item row="6" column="3">
+    <property name="text">
+     <string>0364</string>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>Ingradient-8</string>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="7" column="2">
+    <property name="text">
+     <string>108</string>
+    </property>
+   </item>
+   <item row="7" column="3">
+    <property name="text">
+     <string>6463</string>
+    </property>
+   </item>
+   <item row="8" column="0">
+    <property name="text">
+     <string>Ingradient-9</string>
+    </property>
+   </item>
+   <item row="8" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="8" column="2">
+    <property name="text">
+     <string>109</string>
+    </property>
+   </item>
+   <item row="8" column="3">
+    <property name="text">
+     <string>5582</string>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>Ingradient-10</string>
+    </property>
+   </item>
+   <item row="9" column="1">
+    <property name="text">
+     <string>50  100</string>
+    </property>
+   </item>
+   <item row="9" column="2">
+    <property name="text">
+     <string>110</string>
+    </property>
+   </item>
+   <item row="9" column="3">
+    <property name="text">
+     <string>9875</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>20</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Time :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Role : Operator</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
